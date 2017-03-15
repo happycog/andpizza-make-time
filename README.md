@@ -44,5 +44,5 @@ $order = [
     ]
 ];
 
-$timeInSeconds = $makeTime.calculate($order); // -> 1200
+$timeInSeconds = $makeTime->calculate($order); // -> 1200
 ```
