@@ -1,6 +1,6 @@
 # &pizza Make Time Library
 
-This is a Node and PHP library to calculate the make time of an &pizza order.
+A Node and PHP library to calculate the make time of an &pizza order.
 
 ## npm installation
 
@@ -11,7 +11,7 @@ npm install --save git+ssh://git@github.com/vector/andpizza-make-time.git
 ## Composer installation
 
 ```
-composer config repositories.andpizza-make-time vcs git@github.com:vector/make-time.git
+composer config repositories.vector/andpizza-make-time vcs git@github.com:vector/andpizza-make-time.git
 composer require vector/andpizza-make-time
 ```
 
