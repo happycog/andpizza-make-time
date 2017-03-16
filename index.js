@@ -14,4 +14,4 @@ MakeTime.prototype.calculate = function(order) {
     return this.jsonLogic.apply(this.logic, order);
 };
 
-module.exports = MakeTime;
+module.exports = new MakeTime();

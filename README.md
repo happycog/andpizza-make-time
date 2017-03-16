@@ -18,8 +18,7 @@ composer require vector/andpizza-make-time
 ## Node usage
 
 ```
-var MakeTime = require('andpizza-make-time');
-var makeTime = new MakeTime();
+var makeTime = require('andpizza-make-time');
 
 var order = {
     "orderDetails": {
