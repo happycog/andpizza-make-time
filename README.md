@@ -48,7 +48,7 @@ $timeInSeconds = $makeTime->calculate($order); // -> 1200
 
 ## How to read/write the logic
 
-The logic is stored in [JsonLogic](http://jsonlogic.com) format in the [`logic.json`](/vector/andpizza-make-time/blob/master/logic.json) file.
+The logic is stored in [JsonLogic](http://jsonlogic.com) format in the [`logic.json`](logic.json) file.
 
 ```
 {
