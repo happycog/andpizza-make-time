@@ -45,3 +45,37 @@ $order = [
 
 $timeInSeconds = $makeTime->calculate($order); // -> 1200
 ```
+
+## How to read/write the logic
+
+The logic is stored in [JsonLogic](http://jsonlogic.com) format in the [`logic.json`](/vector/andpizza-make-time/blob/master/logic.json) file.
+
+```
+{
+  "+" : [
+    600,
+    {
+      "max": [
+        0,
+        {
+          "*" : [
+            150,
+            {
+              "-" : [
+                {"var" : "orderDetails.totalPies"},
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+This is interpreted as:
+
+```
+600 + MAX(0, 150 * (order.orderDetails.totalPies - 1));
+```
