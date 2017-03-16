@@ -1,6 +1,6 @@
 {
     "name": "vector/andpizza-make-time",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "autoload": {
         "psr-4": {
             "AndPizza\\MakeTime\\": "src/"
